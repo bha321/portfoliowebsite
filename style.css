@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+}
+.top-box{
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+.navigation-box{
+
+    height:60px;
+    width: 800px;
+    margin-top: 15px;
+
+}
+.navigation-box ul{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.navigation-box ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    
+}
+.about-box{
+    height:600px;
+    background-color: black;
+}
+.about-box h1{
+    border: 2px solid white;
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.about-row{
+height: 400px;
+width: 1100px;
+margin: auto;
+display:flex;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.about-col{
+    width: 45%;
+    height: 100%;
+}
+.about-col img{
+    height: 100%;
+    margin-left: 50px;
+}
+.project{
+    
+    height:800px;
+    background-color: gray;
+    padding: 20px;
+
+}
+.project h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project ul{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.project ul li{
+    margin-top: 10px;
+}
+.achievement{
+    background-color: black;
+    height:500px;
+    padding:60px;
+}
+.achievement h1{
+ text-align: center;
+ color: white;
+ font-size: 45px;
+ text-decoration: underline;
+}
+.achievement ul li{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.contact{
+    height:600px;
+    background-color: gray;
+
+}
+.contact h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.contact-form{
+    background-color: black;
+    height: 390px;
+    width: 500px;
+    margin:auto;
+    border-radius: 20px;
+    padding :20px;
+    color: white;
+    margin-top:auto;
+    
+}
+form{
+    color: white;
+font-size: 20px;
+}
+
+.contact-form tr td{
+    margin-top: 0%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    
+    
+}
+table{
+    margin-top:auto;
+}
+
+
+label{
+    font-size:20px;
+}
+input{
+    
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin-bottom: auto;
+}
+textarea{
+    padding:10px 50px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+input[type='submit']
+{
+    background-color: greenyellow;
+}
+.social-media{
+    background-color: blueviolet;
+    justify-content: space-between;
+     padding:5px;
+     height:42px;
+    
+}
+.social-media td{
+    border-right: 1px solid white;
+    padding:0px 62px;
+    color: white;
+    font-size: 20px;
+    
+}
+.social-media table td:last-child{
+    border-right: none;
+}
+footer{
+    background-color: black;
+    height:80px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.navigation-box a{
+    color: white;
+    text-decoration: none;
+}
